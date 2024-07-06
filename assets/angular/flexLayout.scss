@@ -1,0 +1,137 @@
+[fxLayout="row"] {
+  display: flex;
+  flex-direction: row;
+  //   height: 100%;
+}
+
+[fxLayout="column"] {
+  display: flex;
+  flex-direction: column;
+  //   height: 100%;
+}
+
+[fxLayoutAlign="none"] {
+  box-sizing: border-box;
+  place-content: stretch flex-start;
+  align-items: stretch;
+}
+
+[fxLayoutAlign="start start"] {
+  place-content: flex-start;
+  align-items: flex-start;
+}
+
+[fxLayoutAlign="start center"] {
+  place-content: center flex-start;
+  align-items: center;
+}
+
+[fxLayoutAlign="start end"] {
+  place-content: end flex-start;
+  align-items: flex-end;
+}
+
+[fxLayoutAlign="start stretch"] {
+  place-content: stretch flex-start;
+  align-items: stretch;
+}
+
+[fxLayoutAlign="center start"] {
+  place-content: start center;
+  align-items: flex-start;
+}
+
+[fxLayoutAlign="center center"] {
+  place-content: center center;
+  align-items: center;
+}
+
+[fxLayoutAlign="center end"] {
+  place-content: end center;
+  align-items: flex-end;
+}
+
+[fxLayoutAlign="center stretch"] {
+  place-content: stretch center;
+  align-items: stretch;
+}
+
+[fxLayoutAlign="end start"] {
+  place-content: start flex-end;
+  align-items: flex-start;
+}
+
+[fxLayoutAlign="end center"] {
+  place-content: center flex-end;
+  align-items: center;
+}
+
+[fxLayoutAlign="end end"] {
+  place-content: end flex-end;
+  align-items: flex-end;
+}
+
+[fxLayoutAlign="end stretch"] {
+  place-content: stretch flex-end;
+  align-items: stretch;
+}
+
+[fxLayoutAlign="space-around start"] {
+  place-content: start space-around;
+  align-items: flex-start;
+}
+
+[fxLayoutAlign="space-around center"] {
+  place-content: center space-around;
+  align-items: center;
+}
+
+[fxLayoutAlign="space-around end"] {
+  place-content: end space-around;
+  align-items: flex-end;
+}
+
+[fxLayoutAlign="space-around stretch"] {
+  place-content: stretch space-around;
+  align-items: stretch;
+}
+
+[fxLayoutAlign="space-evenly start"] {
+  place-content: start space-evenly;
+  align-items: flex-start;
+}
+
+[fxLayoutAlign="space-evenly center"] {
+  place-content: center space-evenly;
+  align-items: center;
+}
+
+[fxLayoutAlign="space-evenly end"] {
+  place-content: end space-evenly;
+  align-items: flex-end;
+}
+
+[fxLayoutAlign="space-evenly stretch"] {
+  place-content: stretch space-evenly;
+  align-items: stretch;
+}
+
+[fxLayoutAlign="space-between start"] {
+  place-content: start space-between;
+  align-items: flex-start;
+}
+
+[fxLayoutAlign="space-between center"] {
+  place-content: center space-between;
+  align-items: center;
+}
+
+[fxLayoutAlign="space-between end"] {
+  place-content: end space-between;
+  align-items: flex-end;
+}
+
+[fxLayoutAlign="space-between stretch"] {
+  place-content: stretch space-between;
+  align-items: stretch;
+}
